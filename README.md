@@ -1,6 +1,6 @@
 # CS:GO tools for Unreal Engine 4.26+
 
-Download link for the widget: [Mediafire](https://www.mediafire.com/file/dfnxljuyf70xiq8/CSGO_Tools.rar/file). Source files: [GitHub](https://github.com/adenexvfx/CSGOtools)
+Download link for the widget: [Mediafire](https://www.mediafire.com/file/b7q9yummyfdnnbz/CSGOTools_1.0.1.zip/file). Source files: [GitHub](https://github.com/adenexvfx/CSGOtools)
 
 This widget have 3 modules.
 
@@ -28,8 +28,5 @@ Here's the tutorial how to use it: https://youtu.be/fbwMt57fvCI
 
 ![image](https://user-images.githubusercontent.com/93075018/145672504-1a949cab-4518-4cc1-8443-339a22fbce4d.png)
 
-# AGR tools addon for Blender
-
-[This addon](https://github.com/adenexvfx/CSGOtools/blob/main/agr_tools_for_blender.zip) will help you clean up your scene after importing animations from .agr file. It works in pair with the **CS:GO tools** widget and will export visibility for it. After installation, you'll find this addon at the right-side docked panel. Also it can place all your animation to 0,0,0 just for the first frame (will take some time to execute). This option prevents meshes from other sequences from being displayed.
-
-![image](https://user-images.githubusercontent.com/93075018/145672896-09ffa7cd-68c4-4d76-92fd-1d36704641cf.png)
+1.1 update:
+Some minor bugs were fixed. Now you can choose fps in settings (if you recorded AGR file with 100 fps, set here 100 fps). Also i've added 'S' (select) buttons next to Players and Gloves skeletons fields in OneSkeleton mode. So now you can select skeleton in Content Browser, hit the 'S' button and it's path will setup automatically.
