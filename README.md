@@ -22,7 +22,6 @@ The second (Map Fixer) module was created to help you with fresh imported maps f
 
 The third one (Texture Fixer) can convert all normals and masks textures to correct compression in selected folder.
 
-Here's the tutorial how to use it: https://youtu.be/fbwMt57fvCI
 
 ![image](https://user-images.githubusercontent.com/93075018/145672495-001f1e72-86e9-461b-9b22-16bd22dfc636.png)
 
