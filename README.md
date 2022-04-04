@@ -13,7 +13,7 @@ This widget can:
 [Download link for the widget](https://github.com/adenexvfx/CSGOtools/releases/download/v1.1.0/CSGOtools.zip)
 
 Close Unreal. Merge the ```Content``` folder from archive with the content folder in your project. Open Unreal and go to the Plugins Browser tab and enable following plugins: ```Editor Scripting Utility```, ```Python Editor Script Plugin``` and ```Sequencer Scripting```. Restart UE, right-click on the widget asset, in the content browser, and select ```Run Editor Utility Widget```. The widget should open immediately. For the full setup of the widget and your library 
-To fully configure the widget and your asset library, follow [this tutorial](https://youtu.be/9r7T2mFlLV4).
+To fully configure the widget and your asset library, follow [this tutorial](https://youtu.be/9r7T2mFlLV4). If you need any help with the widget, join my [Discord server](https://discord.gg/CqCHkUCpxq)
 
 ![image](https://i.imgur.com/aDJ8SuNl.png)
 ![image](https://user-images.githubusercontent.com/93075018/145672504-1a949cab-4518-4cc1-8443-339a22fbce4d.png)
