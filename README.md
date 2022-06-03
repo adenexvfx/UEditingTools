@@ -1,7 +1,7 @@
-# CS:GO tools for Unreal Engine 4.27 and 5.0
+# UEditingTools for Unreal Engine 4.27 and 5.0
 
 This widget can:
-- Import players, weapons and viewmodels with proper skeletons (currently supports CSGO, TF2 and CS 1.6)
+- Import players, weapons and viewmodels with proper skeletons (currently supports CSGO, CSS, TF2 and CS 1.6)
 - Import cameras (multiple supports too) with correct offset by 1 frame and adjust them
 - Place all models to the level and sequencer
 - Set bounds with user's value
@@ -23,15 +23,18 @@ To fully configure the widget and your asset library, follow [this tutorial](htt
 - Can remove all light sources from your map
 - Clean the whole level and sort all assets by type under one second
 - Scale the level in single click
+- Spawn cables
 
 ## Texture Fixer tab:
 - Can convert all normal textures in the selected folder from default compression to normal compression
 - Can convert all masks textures in the selected folder from default compression to masks compression
 
-## Experimental tab:
-You can turn it on in the main settings. This tool can spawn unlimited amount of meshes for your POV, add it to the sequencer and hide them depending on the focal length of your main POV camera (useful for sniper POVs)
+## POV tab:
+This tool can spawn unlimited amount of meshes for your POV, add it to the sequencer and hide them depending on the focal length of your main POV camera (useful for sniper POVs)
 
 # Changelog
+- ```v1.2.0```
+CS:S is now supported. Code in all modules was rewritten to improve perfomance. POV section is moved from exprimental feautures to the normal state. Added spawn cables function. Changed method of scaling levels. Now cleaner will leave all unreal.Note actors needed for cables and sky_camera. 
 
 - ```v1.1.0```
 CS 1.6 and TF2 are now supported.  The widget supports only 4.27 and the latest release of 5.0 (Preview 2). The interface changed.  Better performance in MasterSkeleton mode. The sequencer will be automatically opened when the import is completed. AfxCam is now supported. The camera's settings will be automatically set to 'do not override' and 16:9 DSLR. Added the 'experimental' tab
