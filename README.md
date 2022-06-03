@@ -34,7 +34,7 @@ This tool can spawn unlimited amount of meshes for your POV, add it to the seque
 
 # Changelog
 - ```v1.2.0```
-CS:S is now supported. Code in all modules was rewritten to improve perfomance. POV section is moved from exprimental feautures to the normal state. Added spawn cables function. Changed method of scaling levels. Now cleaner will leave all unreal.Note actors needed for cables and sky_camera. 
+CS:S is now supported. Code in all modules was rewritten to improve performance. POV section is moved from exprimental feautures to the normal state. Added spawn cables function to the Map fixing module. Now cleaner will leave all unreal.Note actors needed for cables and sky_camera. Changed the method of scaling levels.
 
 - ```v1.1.0```
 CS 1.6 and TF2 are now supported.  The widget supports only 4.27 and the latest release of 5.0 (Preview 2). The interface changed.  Better performance in MasterSkeleton mode. The sequencer will be automatically opened when the import is completed. AfxCam is now supported. The camera's settings will be automatically set to 'do not override' and 16:9 DSLR. Added the 'experimental' tab
