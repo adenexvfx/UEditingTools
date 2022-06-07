@@ -10,7 +10,7 @@ This widget can:
 - Attach all models to the EmptyActor automatically and rotate them by 180 degrees
 
 # Download and install
-[Download link for the widget](https://github.com/adenexvfx/CSGOtools/releases/download/v1.1.0/CSGOtools.zip)
+[Download link for the widget](https://github.com/adenexvfx/UEditingTools/releases/download/v1.2.1/UEditingTools.rar)
 
 Close Unreal. Merge the ```Content``` folder from archive with the content folder in your project. Open Unreal and go to the Plugins Browser tab and enable following plugins: ```Editor Scripting Utilities```, ```Python Editor Script Plugin``` and ```Sequencer Scripting```. Restart UE, right-click on the widget asset, in the content browser, and select ```Run Editor Utility Widget```. The widget should open immediately. For the full setup of the widget and your library 
 To fully configure the widget and your asset library, follow [this tutorial](https://youtu.be/9r7T2mFlLV4). If you need any help with the widget, join my [Discord server](https://discord.gg/CqCHkUCpxq)
