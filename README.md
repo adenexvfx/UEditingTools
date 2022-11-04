@@ -1,4 +1,4 @@
-# UEditingTools for Unreal Engine 4.27 and 5.0
+# UEditingTools for Unreal Engine 5
 
 This widget can:
 - Import players, weapons and viewmodels with proper skeletons (currently supports CSGO, CSS, TF2 and CS 1.6)
@@ -33,6 +33,14 @@ To fully configure the widget and your asset library, follow [this tutorial](htt
 This tool can spawn unlimited amount of meshes for your POV, add it to the sequencer and hide them depending on the focal length of your main POV camera (useful for sniper POVs)
 
 # Changelog
+- ```v1.4.0```
+- Merged 4 scripts into one for better debugging/maintain
+- Import speed improved (~1s per animation)
+- Added widget for importing all models and animations with creating master skeletons (currently in beta)
+- POV module now will spawn an EmptyActor, attach all spawned weapons to it and attach this to you camera with correct rotation
+- TextureFixer now will take only textures with an incorrect compression
+- CameraOffset module now will work correctly if your camera was zoomed at the first frame
+
 - ```v1.2.0```
 CS:S is now supported. Code in all modules was rewritten to improve performance. POV section is moved from exprimental feautures to the normal state. Added spawn cables function to the Map fixing module. Now cleaner will leave all unreal.Note actors needed for cables and sky_camera. Changed the method of scaling levels.
 
